@@ -26,8 +26,8 @@
     "**/*.tsx",
     "**/*.js",
     "**/*.jsx",
-    "../../apps/client-fe/.next/types/**/*.ts",
-    "../../dist/apps/client-fe/.next/types/**/*.ts",
+    "../../apps/admin-fe/.next/types/**/*.ts",
+    "../../dist/apps/admin-fe/.next/types/**/*.ts",
     "next-env.d.ts",
     ".next/types/**/*.ts"
   ],

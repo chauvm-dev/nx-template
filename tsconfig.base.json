@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-template/ui-kit/ui": ["libs/ui-kit/ui/src/index.ts"],
+      "@nx-template/ui-kit/ui/*": ["libs/ui-kit/ui/src/*"],
+      "@nx-template/ui-kit/utils": ["libs/ui-kit/utils/src/index.ts"],
+      "@nx-template/ui-kit/utils/*": ["libs/ui-kit/utils/src/*"],
+      "@nx-template/utils": ["libs/utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

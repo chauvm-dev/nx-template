@@ -1,7 +1,6 @@
 const { createGlobPatternsForDependencies } = require('@nx/react/tailwind');
 const { join } = require('path');
-
-const TailwindConfig = require('../../libs/ui-kit/utils/src/tailwind/tailwind.config');
+const tailwindConfig = require('../../libs/ui-kit/utils/src/tailwind/tailwind.config');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -11,7 +10,7 @@ module.exports = {
       '{src,pages,components,app}/**/*!(*.stories|*.spec).{ts,tsx,html}'
     ),
     ...createGlobPatternsForDependencies(__dirname),
-    ...TailwindConfig.content,
+    ...tailwindConfig.content,
   ],
-  ...TailwindConfig,
+  ...tailwindConfig,
 };

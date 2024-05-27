@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "default",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "libs/ui-kit/utils/src/tailwind/tailwind.config.js",
+    "css": "libs/ui-kit/utils/src/styles/global.css",
+    "baseColor": "slate",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@nx-template/ui-kit/ui/lib",
+    "utils": "@nx-template/ui-kit/utils"
+  }
+}

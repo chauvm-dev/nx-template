@@ -14,8 +14,8 @@ export default function Index() {
           <div id="welcome">
             <Button>Button</Button>
             <h1>
-              <span className=""> Hello there, </span>
-              Welcome client-fe 👋
+              <span> Hello there, </span>
+              Welcome admin-fe 👋
             </h1>
           </div>
 
@@ -399,7 +399,7 @@ export default function Index() {
                 </svg>
                 View project details
               </summary>
-              <pre>nx show project client-fe --web</pre>
+              <pre>nx show project admin-fe --web</pre>
             </details>
             <details>
               <summary>

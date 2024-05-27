@@ -1,0 +1,9 @@
+{
+  "name": "admin-fe-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/admin-fe-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["admin-fe"],
+  "// targets": "to see all targets run: nx show project admin-fe-e2e --web",
+  "targets": {}
+}
