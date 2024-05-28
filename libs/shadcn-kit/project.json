@@ -1,0 +1,9 @@
+{
+  "name": "shadcn-kit",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shadcn-kit/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project shadcn-kit --web",
+  "targets": {}
+}

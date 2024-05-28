@@ -4,14 +4,14 @@
   "rsc": true,
   "tsx": true,
   "tailwind": {
-    "config": "libs/ui-kit/utils/src/tailwind/tailwind.config.js",
-    "css": "libs/ui-kit/utils/src/styles/global.css",
+    "config": "libs/shadcn-kit/tailwind.config.js",
+    "css": "libs/shadcn-kit/src/lib/global.css",
     "baseColor": "slate",
     "cssVariables": true,
     "prefix": ""
   },
   "aliases": {
-    "components": "@nx-template/ui-kit/ui/lib",
-    "utils": "@nx-template/ui-kit/utils"
+    "components": "@nx-template/shadcn-kit/lib",
+    "utils": "@nx-template/utils"
   }
 }

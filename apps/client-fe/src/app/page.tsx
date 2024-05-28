@@ -1,4 +1,4 @@
-import { Button } from '@nx-template/ui-kit/ui';
+import { Button } from '@nx-template/shadcn-kit';
 import styles from './page.module.css';
 
 export default function Index() {
@@ -11,8 +11,8 @@ export default function Index() {
     <div className={styles.page}>
       <div className="wrapper">
         <div className="container">
+          <Button>Button</Button>
           <div id="welcome">
-            <Button>Button</Button>
             <h1>
               <span className=""> Hello there, </span>
               Welcome client-fe 👋
