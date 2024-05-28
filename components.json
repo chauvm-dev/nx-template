@@ -11,7 +11,8 @@
     "prefix": ""
   },
   "aliases": {
-    "components": "@nx-template/shadcn-kit/lib",
+    "ui": "@nx-template/shadcn-kit/ui",
+    "components": "@nx-template/shadcn-kit/ui",
     "utils": "@nx-template/utils"
   }
 }
