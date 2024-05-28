@@ -5,9 +5,9 @@ module.exports = {
   darkMode: ['class'],
   content: [
     // relative path by consumer app
-    '{src,pages,components,app}/**/*!(*.stories|*.spec).{ts,tsx,html}',
+    // '{src,pages,components,app}/**/*!(*.stories|*.spec).{ts,tsx,html}',
     // path to ui-kit components (relative to current dir)
-    join(__dirname, '../../../ui/**/*.{js,jsx,ts,tsx}'),
+    join(__dirname, './ui/**/*.{js,jsx,ts,tsx}'),
   ],
   prefix: '',
   theme: {
