@@ -11,7 +11,7 @@ export default function Index() {
     <div className={styles.page}>
       <div className="wrapper">
         <div className="container">
-          <Button>Button</Button>
+          <Button>Admin</Button>
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
